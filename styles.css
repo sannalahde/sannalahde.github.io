@@ -2,4 +2,4 @@ body {background: black; color: white;}
 h1 {font-size: 20px;}
 h2 {font-size: 18px;}
 p {font-size: 12px; color: green;}
-div.loppu {border: 2px; border-style: dotted; border-color: white; width: 100px; height: 100px;}
+div.loppu {width: 100px; height: 100px; border: 2px; border-style: dotted; border-color: white; }

@@ -1,0 +1,11 @@
+body {background-color:rgb(206, 158, 252) ;}
+h2 {border: 2px solid #ff0080; width: max-content;}
+p {background:rgb(237, 225, 248) ;border-radius: 15px; padding: 4px; width: max-content;}
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  div.kukkakuva {float: right;}

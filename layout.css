@@ -4,5 +4,26 @@ body {
     margin-right: auto;
     }
 #header {background-color: rgb(250, 187, 222);}    
-#nav {background-color: rgb(173, 126, 154);}
-#section {background-color: rgb(253, 208, 253);}
+#nav {
+    background-color: rgb(173, 126, 154);
+    padding: 20px;
+    height:100px;
+    }
+#section {
+        background-color: rgb(253, 208, 253);
+        float:left;
+        width: 65%;
+        padding: 20px;
+         }
+#aside {
+    width: 25%;
+    height: 100px;
+    background: rgb(247, 200, 200);
+    padding: 20px;
+    float: left;
+        }
+
+#section2 {
+    background: rgb(245, 182, 231);
+    clear: both;
+    }

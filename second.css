@@ -1,11 +1,38 @@
-body {background-color:rgb(206, 158, 252) ;}
-h2 {border: 2px solid #ff0080; width: max-content;}
+body {background-color:rgb(206, 158, 252);}
+/*h2 {border: 2px solid #ff0080; width: max-content;}*/
 p {background:rgb(237, 225, 248) ;border-radius: 15px; padding: 4px; width: max-content;}
-figure {
+#nav1 ul {list-style-type: none;}
+#nav1 a {text-decoration: none;
+  padding-right: 10px; }
+#nav1 li {display: inline;}
+#nav1   a:hover {
+  color: #ff0000;
+}
+#nav1 {background-color: rgb(255, 205, 228); width: 500px;}
+#nav2  ul {
+    width:10%;
+    float:left;
+    list-style-type: none;
+    padding: 5px;
+  }
+
+#nav2   li a {
+  display: block;
+  background-color: rgb(253, 150, 198);
+              }
+#section  {
+    width: 85%;
+    float:left;
+    padding: 5px;
+          }
+  
+
+
+figure  {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 10px;
     margin-right: 40px;
-  }
-  div.kukkakuva {margin: 5px 10px;}
+        }
+div.kukkakuva {margin: 5px 10px;}

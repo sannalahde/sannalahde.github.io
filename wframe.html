@@ -88,9 +88,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.9s;
+  -webkit-animation-duration: 2.8s;
   animation-name: fade;
-  animation-duration: 1.9s;
+  animation-duration: 2.8s;
 }
 
 @-webkit-keyframes fade {
@@ -134,19 +134,16 @@ img {vertical-align: middle;}
               <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
                 <img src="images/graffiti.JPG" style="width:100%" alt="Graffiti on a wall">
-                <div class="text">Graffiti</div>
               </div>
               
               <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <img src="images/juna2.JPG" style="width:100%" alt="Train at night">
-                <div class="text">Train at night</div>
               </div>
               
               <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <img src="images/kissa.JPG" style="width:100%" alt="Cat resting">
-                <div class="text">Cat</div>
               </div>
               
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -179,7 +176,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
               </script>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
